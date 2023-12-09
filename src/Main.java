@@ -1,6 +1,8 @@
 import java.io.*;
 
 class Main {
+//    I acknowledge that I am aware of the academic integrity guidelines of this course, and that I worked on
+//    this assignment independently without any unauthorized help
     private static final WeightedActivitySelection was = new WeightedActivitySelection();
 
     public static void main(String[] args) throws IOException {
