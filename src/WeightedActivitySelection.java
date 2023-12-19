@@ -37,7 +37,6 @@ public class WeightedActivitySelection {
         return topDown(lowestStart, highestFinish, dp);
     }
 
-
     private int topDown(int i, int j, HashMap<Pair<Integer,Integer>, Integer> memo) {
         if (i >= j) {
             return 0;
@@ -58,7 +57,6 @@ public class WeightedActivitySelection {
         memo.put(key, maxWeight);
         return memo.get(key);
     }
-
 
     static class Activity {
         private final int start;
